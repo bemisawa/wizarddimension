@@ -10,6 +10,7 @@ export let EntityList: Record<string, Entity> = {
 		maxHP: 30,
 		HP: 30,
 		speed: 127,
+		activeTime: 0,
 		movement: 3,
 		position: {
 			x: 0,
@@ -23,6 +24,7 @@ export let EntityList: Record<string, Entity> = {
 		maxHP: 10,
 		HP: 10,
 		speed: 110,
+		activeTime: 0,
 		movement: 1,
 		position: {
 			x: 4,

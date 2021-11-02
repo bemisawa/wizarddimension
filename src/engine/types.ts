@@ -9,6 +9,7 @@ export interface Entity {
 	maxHP: number,
 	HP: number,
 	speed: number, // adds up to 1000
+	activeTime: number, // between 0 and slightly over 1000
 	movement: number, // Number of squares on the grid
 	position: Point,	
 }
